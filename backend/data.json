@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "walletAddress": "0x1234567890123456789012345678901234567890",
+      "username": "Shrimp Farmer",
+      "referralCode": "170A35ZE",
+      "referrerId": null,
+      "referralCount": 1,
+      "totalEarned": 10,
+      "lastSignTime": "2026-03-19T20:03:57.734Z",
+      "signStreak": 1,
+      "isV1": true,
+      "packageType": "shrimp",
+      "createdAt": "2026-03-19T20:03:57.725Z"
+    },
+    {
+      "id": 2,
+      "walletAddress": "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd",
+      "username": "Shrimp Farmer",
+      "referralCode": "K9K6P8Z6",
+      "referrerId": 1,
+      "referralCount": 0,
+      "totalEarned": 10,
+      "lastSignTime": "2026-03-19T20:03:57.748Z",
+      "signStreak": 1,
+      "isV1": false,
+      "packageType": "free",
+      "createdAt": "2026-03-19T20:03:57.739Z"
+    }
+  ],
+  "nextId": 3
+}

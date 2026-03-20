@@ -1,97 +1,43 @@
 
-# 🦐 小聋虾 Meme 农场 - 完整项目
+# 🦐 小聋虾 Meme 农场
 
-基于 BSC 链的模拟经营放置类 GameFi 游戏！
+一个基于区块链的 Meme 农场游戏！
 
-## 🎯 项目特色
+## 🚀 一键部署
 
-- ✅ **完整的智能合约** - ERC20 代币 + 游戏主合约
-- ✅ **通缩经济模型** - 游戏内消费 100% 销毁
-- ✅ **邀请系统** - 三级分销，手续费分红
-- ✅ **丰富玩法** - 建筑升级、排行榜、抽奖、NFT
-- ✅ **Web3 集成** - 支持 MetaMask、TokenPocket 等钱包
+### 前端部署到 Vercel
 
-## 📁 项目结构
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyibei465%2Fcnyb&root-directory=frontend&framework=vite)
 
-```
-meme-farm/
-├── contracts/          # 智能合约
-│   ├── SHRIMP.sol     # 游戏代币合约
-│   └── MemeFarm.sol   # 游戏主合约
-├── frontend/           # 前端应用 (React + Web3)
-├── backend/            # 后端 API (Node.js)
-├── docs/               # 文档
-└── README.md
-```
+### 后端部署到 Railway
 
-## 🚀 快速开始
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fyibei465%2Fcnyb)
 
-### 1. 部署智能合约
+---
 
-```bash
-cd contracts
-# 使用 Hardhat 或 Remix 部署合约
-```
+## 📋 部署步骤
 
-### 2. 配置环境变量
+### 1. 部署前端
+点击上面的「Deploy with Vercel」按钮，按照提示操作！
 
-```bash
-# 复制并编辑配置
-cp .env.example .env
-```
+### 2. 部署后端
+点击上面的「Deploy on Railway」按钮，按照提示操作！
 
-### 3. 启动后端
+### 3. 连接前后端
+把后端的 URL 填入前端的环境变量 `VITE_API_URL`
 
-```bash
-cd backend
-npm install
-npm start
-```
+---
 
-### 4. 启动前端
+## 🎮 游戏说明
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+详见 [GAME_DESIGN.md](docs/GAME_DESIGN.md)
 
-## 💰 经济模型
+---
 
-| 收入 | 分配 |
-|------|------|
-| 玩家购买 BNB | 70% 回购销毁 |
-| | 20% 运营推广 |
-| | 10% 团队 |
-| 游戏内消费 | 100% 永久销毁 |
+## 🦐 关于小聋虾
 
-## 🎮 游戏玩法
+小聋虾是一个财务大佬、虚拟货币大师！💰
 
-### 开局套餐
+---
 
-- 🦐 **虾农** - 0.05 BNB - 6 块地 + 2 店铺
-- 🦐🦐 **虾场主** - 0.1 BNB - 9 块地 + 3 店铺
-- 🦐🦐🦐 **虾王** - 0.5 BNB - 16 块地 + 5 店铺
-- 🆓 **试玩** - 免费 - 1 块地 + 1 店铺
-
-### 建筑系统
-
-| 建筑 | 产出倍率 |
-|------|---------|
-| 🍉 水果店 | 1x |
-| 🏦 币安大厦 | 2x |
-| 🦐 龙虾餐厅 | 3x |
-| 💎 钻石矿场 | 5x |
-| 🏰 虾王城堡 | 10x |
-
-## 🔧 技术栈
-
-- **区块链**: Binance Smart Chain
-- **智能合约**: Solidity
-- **前端**: React + Web3.js / Ethers.js
-- **后端**: Node.js + Express
-- **数据库**: MongoDB / PostgreSQL
-
-## 📝 License
-
-MIT License - 小聋虾出品 🦐💰
+**祝你玩得开心！** 🎉🦐
